@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔥 Habit Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🔥 Habit Tracker</h1>
+    <button id="toggle-dark">🌙</button>
+  </header>
+
+  <main>
+    <input type="text" id="habit-name" placeholder="📌 Habit name..." />
+    <input type="text" id="habit-emoji" maxlength="2" placeholder="😀" />
+    <button id="add-habit">Add Habit</button>
+
+    <input type="text" id="search" placeholder="🔍 Search habits..." />
+
+    <ul id="habit-list"></ul>
+  </main>
+
+  <div id="toast" class="toast">✅ Habit Checked!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
